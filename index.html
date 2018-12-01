@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function getUserInfo() {
+	var name = document.getElementById('name').value;
+	var id =  document.getElementById('id').value;
+	window.name = 'Thank you ' + name + '<br>\nYour user id is ' + id; 
+}
+</script>
+</head>
+<body>
+
+<form action="user.html" onsubmit="getUserInfo();">
+	Name: <input id="name" name="id" type="text" value="enter name">
+		<br>
+	ID: <input id="id" name="id" type="text" value="enter id">
+	<br>
+	<input id="btn" name="btn" type="submit" value="Submit">
+</form>
+</body>
+</html> 
